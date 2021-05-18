@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Aggiungi libro</title>
+    <link rel="stylesheet" href="Libreria.css" />
+</head>
+<body>
+    <h2>Sezione Aggiungi Libro</h2>
+
+    <a href="homepagelibri.html">Home</a>
+
+    <br /><br />
+
+
+    <form>
+
+        Titolo
+        <input type="text" required="required" placeholder="Inserisci titolo" />
+
+        <br /> <br />
+        <label>Autore</label>
+        <input type="text" placeholder="Inserisci autore" />
+
+        <br /><br />
+        <label>Disponibilità</label>
+        <select>
+            <option value="1">Si</option>
+            <option value="2">No</option>
+            <option value="3">Da ordinare</option>
+        </select>
+
+        <br /><br />
+        <label>Inserisci codice ISBN</label>
+        <input type="number" required="required" pattern="[0-13]" title=" codice di 13 cifre numeriche" />
+
+
+
+
+
+        <br /> <br />
+
+        <input type="submit" values="Aggiungi libro" />
+
+    </form>
+</body>
+</html>

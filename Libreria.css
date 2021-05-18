@@ -1,0 +1,71 @@
+﻿body
+{
+    background-color: cornsilk;
+
+}
+
+header {
+    text-align: center;
+}
+   
+    #elementoSx {
+
+    flex: 50%;
+}
+
+#elementoDx {
+   
+    flex: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightcyan;
+}
+
+li a {
+  
+    display: block;
+    color:darkblue;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+    li a:hover {
+        background-color: dodgerblue;
+        color: white;
+    }
+
+    table tr{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align :center;
+    }
+
+    tbody tr:nth-child(even){
+        background-color:palegreen;
+        
+    }
+ tbody tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+    
+    thead{
+        background-color:orchid;
+    }
+
+
+
+tr td:hover{
+    background-color: mediumpurple;
+}
+  
+
